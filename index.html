@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <title>Tito</title>
+</head>
+<body>
+  <div class="container">
+    <div class="side-bar">
+      <img class="logo" width="100" src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1684153809/download_vmjdgi.png" alt="logo">
+      <div class="social-media-part hide-mobile">
+        <button class="nav-btn" id="nav-btn" onclick="window.location.href = 'https://twitter.com/TheAnalyst_Tito';"><i class="bi bi-twitter"></i></button>
+        <button class="nav-btn" id="nav-btn" onclick="window.location.href = 'https://github.com/Tito-74';"><i class="bi bi-github"></i></button>
+   
+      </div> 
+    </div>
+    <div class="main">
+      <header>
+        <nav> 
+          <div class="email-details">
+            
+              <button class="nav-btn hide-mobile dark-email" id="nav-btn" onclick="window.location.href = '#my-works';">
+                <i class="bi bi-envelope"></i>
+                kipkirui133@gmail.com</button>
+
+            <button class="nav-btn dark-email" id="btn"  onclick="change()">
+              <i class="bi bi-moon-stars"></i>
+            </button>
+
+          </div>
+
+          <ul class="nav-links hide-mobile" id="nav-links">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1685392723/exit_bcxxab.svg" alt=""></li>
+            <li class="hide-desktop">
+              
+              <i class="bi bi-envelope"></i>
+              <button class="nav-btn" onclick="window.location.href = '#my-works';">Email</button>
+              
+            </li>
+            
+            <li>
+              <i class="bi bi-file-earmark-check-fill"></i>
+              <button class="nav-btn" onclick="window.location.href = '#my-works';"> Works</button>
+          </li>
+            <li>
+                <i class="bi bi-file-person-fill"></i>
+              
+              <button class="nav-btn" onclick="window.location.href = '#';">Resume</button>
+            </li>
+            
+          </ul>
+
+          <a href="#" class="menu hide-desktop">
+            <img src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1684480354/ham_b31do7.svg" alt="toggle menu"  id="menu">
+          </a>
+        </nav>
+      
+      </header>
+
+      <section class="hero">
+        <div class="hero-part-1">
+        <div class="profile-name text-center">
+          <img class="intro-image" width="100" src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1684503498/download_ub0jln.png" alt="">
+          <h1><span class="auto-typed"></span></h1>
+        </div>
+          <h6 class="text-center">Software Engineer</h6>
+          <p class="text-center">I'm from Nairobi, Kenya.I have experience in building complex application with cutting-edge technologies </p>
+          <div class="talk-wrapper">
+            <a href="comments/">
+              <img width= "100" src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1684505774/images_ebomgc.png" alt="lets-talk">
+            </a>
+          </div>
+        </div>
+        
+        
+
+      <div class="profile-pic">
+          <img class= "prof-pic" src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1687980455/IMG-20230619-WA0015_1687201413998_w1wv8s.jpg" alt="profile-pic">
+        </div>      
+
+      </section>
+
+      <section class="what-i-do">
+        <h1>What I can do</h1>
+        <p class="s-offers">Service Offers</p>
+        <hr>
+        <div class="what-i-do-content">
+          <div class="what-i-do-text-content gray-dark-mode">
+            <div id="back-end">
+              <h5>Backend App</h5>
+              <p>Building scalable and maintainable server appliation using cutting-edge technologies such as Django, Golang , Postgres DB , Docker and Azure.</p>
+            </div>
+            <div id="front-end">
+              <h5>Frontend App</h5>
+              <p>Build client-side applications with modern features like SPA and maintain semantic coding style among other best practices for SEO optimisation.Use modern tech such as Angular, boostrap CSS and Javascript </p>
+            </div>
+            <a href="#my-works" class="btn btn-main cta-btn">
+              See my Work
+            </a>
+          </div>
+          <img class="gif-content " src="https://camo.githubusercontent.com/61491d59e71fec5c794945fed916a4a682b6c0404fc31f30b08a0d919c558404/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966" alt="works-pic">
+        </div>
+
+      </section>
+
+      <section class="readme gray-dark-mode">
+        <div class="readme-part-1">
+        <img clas = "readme-pic" src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1684504680/85230811_qd5vrq.jpg" alt="readme-pic">
+        <div class="readme-content">
+          <span><i class="bi bi-building-gear"></i>
+            Building Techsyiq.com
+          </span>
+          <span><i class="bi bi-people-fill"></i>Scaling and improving on dawascope.co.ke</span>
+          <span><i class="bi bi-tree-fill"></i>Learning Kafka and  advance Angular </span>
+          <span><i class="bi bi-controller"></i>Playing Fifa</span>
+          
+          
+          
+          <p><strong> Fun Fact:
+          </strong>
+          I am fascinated by travel because I learn about new cultures and meet people. 
+          </p>
+        </div>
+        </div>
+        <div class="readme-text-content">
+          <h4>Readme</h4>
+          <hr>
+          <p>
+            I am a software developer with more than two years of building scalable products.
+          </p>
+          <p>I have participated in a number of tech programs, where I acquired  technical and soft skills. I also acquired a high level programming skills from Moringa school and online platform like Udemy and Pluralsight. I am a self motivated developer with a strong discipline to learn, improve and evolve.</p>
+          <p>
+          When I'm not coding, I either watch movies, play video games or traveling. Other times I am learning new languages or Frameworks.  
+          </p>
+          <p>
+            Currently, I am working as Backend Engineer at <a href="https://dawascope.com/">Dawascope Technologies</a> 
+          </p>
+        </div>
+
+      </section> 
+      <section class="my-works" id="my-works">
+        <h1>My Works</h1>
+        <p>Some of my Projects</p>
+        <h3>Web Applications</h3>
+        <div class="work-list"> 
+          <div class="card card1">
+            <img src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1687200168/dawascope_xb3gzb.png" alt="project-1">
+            <div id="card-details">
+              <a href="https://dawascope.co.ke/">Dawascope E-commerce</a>
+              <p>Go(Go-fiber)|Quasar js|Postgres Db|Azure|Websocket </p>
+            </div>
+          </div>
+          <div class="card card1">
+            <img src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1685558399/yqjgklb5e5z5wgnd6zhq.png" alt="project-1">
+            <div id="card-details">
+              <a href="#">Clinica</a>
+              <p>Python(Django)| Angular| Boostrap| Heroku</p>
+            </div>
+          </div>
+          <div class="card card1">
+            <img src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1685560106/tju0su1wgv6td6as1gub.png" alt="project-1">
+            <div id="card-details">
+              <a href="http://127.0.0.1:5500/index.html">Portfolio</a>
+              <p>Python(Django)| JavaScript| HTML| CSS</p>
+            </div>
+          </div>
+          
+        <div class="quiz">
+          <p class="quiz-quiz">Wants to know about my profession? Check my resume <span>&#128073;&#127998;</span></p>
+         
+          <button class="btn btn-main h5-resume"><a href="#"><strong>My Resume</strong></a></button>
+        </div>
+
+      </section>
+          
+      <section class="footer">
+        <div class="footer-intro-connection"> 
+        <h3>Stay Connected</h3>
+        <span>Nairobi, Kenya </span>
+        <p>kipkirui133@gmail.com</p>
+        <div class="social-media">
+          <button class="nav-btn" id="nav-btn" onclick="window.location.href = 'https://twitter.com/TheAnalyst_Tito';"><i class="bi bi-twitter"></i></button>
+          <button class="nav-btn" id="nav-btn" onclick="window.location.href = 'https://github.com/Tito-74';"><i class="bi bi-github"></i></button>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <img class="footer-logo" width="100" src="https://res.cloudinary.com/dlkjbxanc/image/upload/v1684153809/download_vmjdgi.png" alt="logo"> 
+        <div class="footer-link">
+          <ul>
+            <li>
+              <button class="nav-btn" id="nav-btn" onclick="window.location.href = '#my-works';"> Works</button>
+          </li>
+            <li>
+              <button class="nav-btn" id="nav-btn" onclick="window.location.href = '#';"> Resume</button>
+            </li>
+          </ul>
+        </div>
+        <p>&copy;2023 Tito, All Rights Reserved</p>
+      </div> 
+              
+      </section>
+
+    </div>
+   
+    
+  </div>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed(".auto-typed", {
+      strings: ["Langat K. Tito"],
+      typeSpeed:150,
+      // backSpeed:150,
+      loop:false,
+      showCursor: false
+    });
+
+    function change() {
+          let btnText = document.getElementById("btn");
+            let btn = document.body;
+            let linkButton = document.getElementsByClassName("nav-btn")
+               btn.classList.toggle("dark-mode");
+               if (btnText.innerHTML === '<i class="bi bi-brightness-high"></i>') {
+                for(i = 0; i < linkButton.length; i++) {
+                    linkButton[i].style.color = 'black';
+                    }
+                
+                  btnText.innerHTML = '<i class="bi bi-moon-stars"></i>';
+               } else {
+                for(i = 0; i < linkButton.length; i++) {
+                    linkButton[i].style.color = 'white';
+                    }
+                  btnText.innerHTML = '<i class="bi bi-brightness-high"></i>';
+            }}
+
+
+     var nav = document.getElementById("nav-links");
+     var exit = document.getElementById("exit");
+     document.getElementById("menu").onclick = function(e){
+      nav.classList.toggle("hide-mobile")
+      e.preventDefault();
+      };
+      document.getElementById("exit").onclick = function(e){
+        nav.classList.add("hide-mobile")
+        e.preventDefault();
+      }
+  
+  </script>
+
+</body>
+</html>
+
